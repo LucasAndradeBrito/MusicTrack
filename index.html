@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music - Track</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="./assets/document/icon2.png">
+  </head>
+  <body>
+    <div class="musicContainer">
+      <audio id="audio" src=""></audio>
+      <img id="album" src="" alt="music album" />
+      <h1 id="musicName"></h1>
+      <h2 id="artist"></h2>
+      <input type="range" class="range" id="range"  />
+      <div class="timer">
+        <span id="currentTime"></span>
+        <span id="maxTime"></span>
+      </div>
+      <div class="buttons">
+          <img
+            class="button"
+            id="backward"
+            src="./assets/document/previous.png"
+            alt=""
+          />
+          <img
+            class="button"
+            id="play"
+            src="./assets/document/play.png"
+            alt=""
+          />
+          <img
+            class="button"
+            id="pause"
+            style="display: none"
+            src="./assets/document/pause.png"
+            alt=""
+          />
+          <img
+            class="button"
+            id="forward"
+            src="./assets/document/next.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  font: normal 1rem "comic sans ms";
+  color: rgb(0, 0, 0);
+}
+
+body {
+  background-color: #c2165f;
+}
+
+.musicContainer {
+  display: flex;
+  flex-flow: column wrap;
+  align-content: center;
+  margin: 0 auto;
+  transform: translateY(30%);
+  padding: 20px;
+  box-sizing: border-box;
+  max-width: 350px;
+  /* height: 600px; */
+  background-color: #b85f84;
+  border-radius: 15px;
+  text-align: center;
+}
+
+#album {
+  width: 300px;
+  height: 300px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+}
+
+#musicName {
+  font-size: 2.5rem;
+}
+
+#artist {
+  margin: -10px 0 10px 0;
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+.range {
+  margin: 10px 0 10px 0;
+  appearance: none;
+  border-radius: 9px;
+  cursor: pointer;
+  outline: none;
+  overflow: hidden;
+  background-color: #c2165f;
+}
+
+.range::-webkit-slider-thumb {
+  appearance: none;
+  cursor: pointer;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: rgb(0, 0, 0);
+  box-shadow: -410px 0 0 400px rgb(0, 0, 0);
+}
+
+.timer {
+  display: flex;
+  justify-content: space-between;
+  margin: -10px 0 10px 0;
+  font-size: 1rem;
+}
+
+.buttons {
+  margin: 5px 0 0 0;
+}
+
+.buttons img {
+  margin: 0 10px;
+  padding: 5px;
+  width: 60px;
+}
+
+.buttons img:hover {
+  background-color: rgba(221, 221, 221, 0.219);
+  border-radius: 40%;
+}
+
+.buttons img:active {
+  width: 50px;
+}
